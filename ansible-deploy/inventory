@@ -1,0 +1,2 @@
+[localhost]
+simrath ansible_connection=local
