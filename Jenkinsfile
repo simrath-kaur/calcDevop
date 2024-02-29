@@ -2,7 +2,7 @@
 pipeline {
     environment {
         imageName = ""
-        DOCKERHUB_CREDENTIALS = credentials('9e8fc366-3783-4ab2-b12e-1db7930ce1fc')
+        DOCKERHUB_CREDENTIALS = credentials('docker-hub-credentials')
     }
     agent any
     stages {
